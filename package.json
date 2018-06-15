@@ -1,0 +1,43 @@
+{
+  "name": "@emiljohansson/light-dom",
+  "version": "0.0.0",
+  "description": "Custom elements for pre-rendered DOM",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "tscWatch": "tsc -w",
+    "test": "wct",
+    "coverage": "wct --configFile=wct.coverage.conf.json",
+    "lint": "tslint src/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emiljohansson/light-dom.git"
+  },
+  "keywords": [
+    "light",
+    "dom",
+    "element"
+  ],
+  "author": "Emil Johansson <emiljohansson.se@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emiljohansson/light-dom/issues"
+  },
+  "homepage": "https://github.com/emiljohansson/light-dom#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.2",
+    "@types/sinon": "^5.0.1",
+    "@types/source-map": "^0.5.2",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.2",
+    "wct-browser-legacy": "^1.0.1",
+    "wct-istanbul": "^0.14.3",
+    "web-component-tester": "^6.6.0"
+  }
+}

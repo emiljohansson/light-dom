@@ -1,0 +1,21 @@
+{
+  "verbose": true,
+  "persistent": true,
+  "npm": true,
+  "module-resolution": "node",
+  "plugins": {
+    "local": {
+      "browsers": ["chrome"]
+    },
+    "istanbul": {
+      "dir": "coverage",
+      "reporters": ["text-summary", "lcov"],
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": [
+        "**/test/**"
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "verbose": true,
+  "persistent": false,
+  "npm": true,
+  "module-resolution": "node",
+  "plugins": {
+    "local": {
+      "browsers": ["chrome"],
+      "browserOptions": {
+        "chrome": [
+          "window-size=1920,1080",
+          "headless",
+          "disable-gpu"
+        ]
+      }
+    },
+    "istanbul": {
+      "dir": "coverage",
+      "reporters": ["text-summary", "lcov"],
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": [
+        "**/test/**"
+      ]
+    }
+  }
+}

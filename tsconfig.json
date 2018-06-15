@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "./",
+    "sourceMap": true,
+    "strictNullChecks": false,
+    "module": "esnext", 
+    "target": "esnext", 
+    "allowJs": true,
+    "experimentalDecorators": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": []
+}
