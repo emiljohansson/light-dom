@@ -1,6 +1,6 @@
 {
   "name": "@emiljohansson/light-dom",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Custom elements for pre-rendered DOM",
   "directories": {
     "test": "test"
